@@ -1,5 +1,6 @@
 ##IAGCN
-##Dataset:
+
+## Dataset:
 Download the raw GPS trajectory data by following URL:
 
 **METR-LA**:  https://github.com/liyaguang/DCRNN
@@ -8,7 +9,8 @@ Download the raw GPS trajectory data by following URL:
 
 **BJ-AIR**: https://quotsoft.net/air/
 
-##Running code:
+## Running code:
+
 You can run the following command to train the model at different datasets:
 
 **METR-LA**: python train.py --dataset 'METR-LA' --no_nu 150 --n_u 50 --inductive_adp True --pred_loss 0.05
