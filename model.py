@@ -314,8 +314,7 @@ class IAGCN(nn.Module):
         interpolation_2 = interpolation_2.permute(2,1,0).squeeze(-1)  # F,N
 
         adp_interpolation_A = F.softmax(F.relu(torch.mm(interpolation_1, interpolation_2)), dim=-1)
-        np.savez("METR_A.npy",adp_interpolation_A.cuda().data.cpu().numpy())
-        exit()
+        
         if self.inductive_adp == True:
             new_interpolation_support = [adp_interpolation_A] + supports_batch
         else:
