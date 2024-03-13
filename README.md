@@ -1,7 +1,7 @@
 ## IAGCN
 
 ## Dataset:
-Download the raw GPS trajectory data by following URL:
+Download the raw data by the following URL:
 
 **METR-LA**:  https://github.com/liyaguang/DCRNN
 
@@ -11,6 +11,6 @@ Download the raw GPS trajectory data by following URL:
 
 ## Running code:
 
-You can run the following command to train the model at different datasets by: 
+You can run the following command to train the model at different datasets: 
 
 python command.py
